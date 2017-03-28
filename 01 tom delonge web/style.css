@@ -1,0 +1,171 @@
+* {
+  font-family: 'Josefin Sans', helvetica, sans-serif;
+}
+
+/*este es para saber las medidas de las cajas y elementos*/
+/** {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}*/
+h1 {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-top: 50px;
+}
+
+h2{
+	font-size: 40px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 25px;
+}
+p {
+  font-size: 18px;
+}
+
+header {
+	background-image: url(css/imagenes/header.jpg);
+	width: 1200px;
+	height: 400px;
+	align-content: center;
+	margin: 20px;
+	border: 4px solid #5E5FE8;
+}
+
+header h2 {
+	color:white;
+	text-align: left;
+	font-size: 18px;
+	margin-left: 10px;
+	padding-left: 400px;
+	padding-right: 400px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+#menu {
+	display: inline-block;
+	width: 25%;
+    height: 100%;
+    margin: 0px;
+    clear: left;
+    background-color: #5E5FE8;
+    vertical-align:top;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+#menu ul{
+	list-style: none;
+	padding: 0px 20px 15px 20px;
+	font-size: 20px;
+}
+
+#menu li{
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+#menu a{
+	text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: white;
+}
+
+#menu a:visited {
+   color: black;
+}
+
+.contenedor{
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-left: 10px;
+	background-color: black;
+	clear: right;
+}
+.contenedor h4, h3{
+	text-align: center;
+	color: white;
+}
+
+.discografia {
+	padding: 10px
+	justify-content: space-around;
+}
+
+.disco {
+	display: inline-block;
+  	width: 260px;
+  	height: 300px;
+ 	margin: 10px;
+ 	background-color: #5E5FE8;
+ 	align-content: center;
+ 	justify-content: center;
+}
+
+.disco img {
+	 display: block;
+	 margin: auto;
+	 padding-top: 15px
+}
+
+.disco p {
+	text-align: center;
+	padding-bottom: 15px;
+	color: white;
+}
+
+.modulo1 {
+	float: left;
+	justify-content: : center;
+	overflow: visible;
+	clear: right; 
+	
+}
+
+.modulo2 {
+	display: flex;
+	clear: left;
+
+}
+
+.modulo3 {
+	display: flex;
+	clear: left;
+}
+
+.modulo1, .modulo2, .modulo3 {
+	justify-content: center;
+}
+
+body {
+	margin-bottom: 70px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: 50px;
+	background-color: white;
+	border: 2px, solid, black;
+	width: 100%
+}
+
+footer p{
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
