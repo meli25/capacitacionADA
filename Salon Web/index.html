@@ -4,15 +4,16 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Dosis');
+	</style>
+
 	<title>MAJA!</title>
 	<link rel="icon" href="img/png" type="css/images/favicon.png">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="fuentes/Brushed Traveler">
-	<style>
-		@import url('https://fonts.googleapis.com/css?family=Dosis');
-	</style>
-</head>
+	</head>
 
 <body>
 	
@@ -65,14 +66,35 @@
 
 	<div class="container">
 		<div class="row contenido">
-			<div class="col-md-3 box">
+			<div class=" col-xs-12 col-sm-6 col-md-3 box">
 				<h2><a href="#">Sombras de ojos naranja</a></h2>
 				<p>Su uso en maquillaje se está disparando por el toque llamativo y sutil que lo caracteriza. ¿Te gustaría saber más? Te contamos <b>cómo se lleva la tendencia de las sombras de ojos naranja.</b></p>
-				<img src="css/images/peach.jpg" class="img-responsive img-center">
+				<a href="#" data-toggle="modal" data-target="#imgPeach">
+					<img src="css/images/peach.jpg" class="img-responsive img-center">
+				</a>
 				<p><a href="#">#TIPS</a>
 				<a href="#">#TENDENCIAS</a>
 				<a href="#">#MAKEUP</a></p>
 			</div>
+
+			<div class="modal fade" tabindex="-1" role="dialog" id="imgPeach">
+				<div class="modal-dialog" role="#imgPeach">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h4 class="modal-title">Sombras de Ojos Naranja</h4>
+				      </div>
+				      <div class="modal-body ">
+				        <img src="css/images/peach.jpg" class="img-responsive img-center">
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div><!-- /.modal-content -->
+				  </div><!-- /.modal-dialog -->
+			</div> <!-- modal -->
+
+
 			<!--<div class="col-md-3 box">
 				<h2><a href="#">Strobing</a></h2>
 				<p>El strobing es la tendencia que más fuerte está pisando en cuanto a estilos de maquillaje en los últimos meses. Tanto es así que ya casi ha desterrado a otros tipos de maquillaje, como el contouring. ¿Quieres saber de qué se trata? Te contamos todo sobre el <b>strobing, la nueva tendencia en maquillaje que acabó con el contouring.</b></p>
@@ -81,7 +103,8 @@
 				<a href="#">#TENDENCIAS</a>
 				<a href="#">#MAKEUP</a></p>
 			</div> -->
-			<div class="col-md-9 destacado">
+
+			<div class="col-xs-12 col-sm-6 col-md-9 destacado">
 				<h2 class="text-center"><span class="glyphicon glyphicon-star" aria-hidden="true"></span><a href="#"><b>Feedback</b></a></h2>
 				<h3 class="text-center"><a href="#">Clientes Felices</a></h3>
 				<blockquote class="blockquote-reverse">
@@ -102,50 +125,118 @@
 	
 	<div class="container">
 		<div class="row contenido">
-			<div class="col-md-3 box">
+			<div class="col xs-12 col-sm-6 col-md-3 box">
 				<h2><a href="#">Labios Mate</a></h2>
 				<p>Los <b>labios mate</b> serán la máxima tendencia en cualquiera de sus tonos, bien desde los más nudes a los más intensos. Vale que este año ya ha estado muy presente, pero no está haciendo más que crecer y tener uno o dos labiales de este tipo es y será un <b>must have</b> este 2017.</p>
-				<img src="css/images/matelips.jpg" class="img-responsive img-center">
+				<a href="#" data-toggle="modal" data-target="#imgMatte"><img src="css/images/matelips.jpg" class="img-responsive img-center"></a>
 				<p><a href="#">#TIPS</a>
 				<a href="#">#TENDENCIAS</a>
 				<a href="#">#MAKEUP</a></p>
-
 			</div>
-				<div class="col-md-3 box">
+			<!-- Modal-->
+			<div class="modal fade" tabindex="-1" role="dialog" id="imgMatte">
+			  <div class="modal-dialog" role="#imgMatte">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title">Labios Mate</h4>
+			      </div>
+			      <div class="modal-body">
+			        <img src="css/images/matelips.jpg" class="img-responsive img-center">
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div><!-- /.modal-content -->
+			  </div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+
+			<div class="col xs-12 col-sm-6 col-md-3 box">
 				<h2><a href="#">El Ombré</a></h2>
 				<p>La técnica del ombré o del degradado en su amplio espectro es tendencia y en el 2017 seguiremos viendo cómo las <b>melenas</b>, los <b>maquillajes</b> o las <b>manicuras</b> se siguen llenando con esta técnica.</p>
-				<img src="css/images/ombre.jpg" class="img-responsive img-center">
+				<a href="#" data-toggle="modal" data-target="#imgOmbre"><img src="css/images/ombre.jpg" class="img-responsive img-center"></a>
 				<p><a href="#">#TIPS</a>
 				<a href="#">#TENDENCIAS</a>
 				<a href="#">#CABELLO</a></p>
 			</div>
-			<div class="col-md-3 box">
+			<!-- Modal-->
+			<div class="modal fade" tabindex="-1" role="dialog" id="imgOmbre">
+			  <div class="modal-dialog" role="#imgMatte">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title">El Ombré</h4>
+			      </div>
+			      <div class="modal-body">
+			        <img src="css/images/ombre.jpg" class="img-responsive img-center">
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div><!-- /.modal-content -->
+			  </div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+			<div class="col xs-12 col-sm-6 col-md-3 box">
 				<h2><a href="#">Glitter Extremo</a></h2>
 				<p>El glitter se vuelve un imprescindible en cualquier zona. Así, lo podremos aplicar en los <b>párpados</b>, en los <b>labios</b>, en las <b>mejillas...</b> cualquier cosa vale en este mundo con tal de brillar.</p>
-				<img src="css/images/glitter.jpg" class="img-responsive img-center">
+				<a href="#" data-toggle="modal" data-target="#imgGlitter"><img src="css/images/glitter.jpg" class="img-responsive img-center"></a>
 				<p><a href="#">#TIPS</a>
 				<a href="#">#TENDENCIAS</a>
 				<a href="#">#MAKEUP</a></p>
 			</div>
-			<div class="col-md-3 box">
+			<!-- Modal-->
+			<div class="modal fade" tabindex="-1" role="dialog" id="imgGlitter">
+			  <div class="modal-dialog" role="#imgGlitter">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title">Glitter Extremo</h4>
+			      </div>
+			      <div class="modal-body">
+			        <img src="css/images/glitter.jpg" class="img-responsive img-center">
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div><!-- /.modal-content -->
+			  </div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+			<div class="col xs-12 col-sm-6 col-md-3 box">
 				<h2><a href="#">Cabello Holográfico</a></h2>
 				<p>El efecto holograma está siendo una de las tendencias más utilizadas en 2017, lo hemos visto en uñas, labios, sombras de ojos, en la ropa... y ahora esta tendencia también llega al cabello. ¿Has visto ya nuestro artículo con todas las tendencias con <b>look holográfico?</b></p>
-				<img src="css/images/holo.jpg" class="img-responsive img-center">
+				<a href="#" data-toggle="modal" data-target="#imgHolo"><img src="css/images/holo.jpg" class="img-responsive img-center"></a>
 				<p><a href="#">#TIPS</a>
 				<a href="#">#TENDENCIAS</a>
 				<a href="#">#CABELLO</a></p>
 			</div>
+			<!-- Modal-->
+			<div class="modal fade" tabindex="-1" role="dialog" id="imgHolo">
+			  <div class="modal-dialog" role="#imgHolo">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title">Cabello Holográfico</h4>
+			      </div>
+			      <div class="modal-body">
+			        <img src="css/images/holo.jpg" class="img-responsive img-center">
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div><!-- /.modal-content -->
+			  </div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
 		</div>
 	</div>
 
 	<footer class="container">
 		<div class="row">
-			<div class="col-md-3 redes">
+			<div class="col-sm-12 col-md-2 col-md-3 redes">
 				<a target="_blank" href="http://facebook.com"><img src="css/images/01fb.png"></a>
 				<a target="_blank" href="http://instagram.com"><img src="css/images/02insta.png"></a>
 				<a target="_blank" href="http://twitter.com"><img src="css/images/03tw.png"></a>
 			</div>
-			<div class="col-md-9 info">
+			<div class="col-sm-12 col-md-10 col-md-9 info">
 				<p>744 817 555</p>
 				<p>Comandante Izarduy 67, Barcelona.</p>
 				<p>Atención al Cliente de Martes a Sábados de 10hs. a 20hs.</p>
